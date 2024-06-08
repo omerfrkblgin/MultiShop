@@ -1,0 +1,1 @@
+Double to the identity server project and change the entity core versions.
