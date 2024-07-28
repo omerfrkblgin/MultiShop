@@ -18,9 +18,11 @@ namespace MultiShop.Catalog.Entities
 
         public string ProductDescrition { get; set; }
 
+        [BsonRepresentation(BsonType.ObjectId)]
         public string CategoryId { get; set; }
 
         [BsonIgnore]
         public Category Category { get; set; }
+
     }
 }
